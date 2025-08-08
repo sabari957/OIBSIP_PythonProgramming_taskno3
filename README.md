@@ -1,9 +1,9 @@
-# Random Password Generator
+## Random Password Generator
 
-Objective:
+# Objective:
 To generate a secure random password of user-defined length, including uppercase letters, lowercase letters, digits, and special characters.
 
-Steps Performed:
+# Steps Performed:
 
 1. Ask the user for the desired password length.
 
@@ -17,8 +17,18 @@ Steps Performed:
 4. Display the generated password to the user.
 
 
+# Sample Output
 
-Tools Used:
+Enter password length: 16
+Include uppercase letters? (y/n): y
+Include lowercase letters? (y/n): y
+Include digits? (y/n): y
+Include special characters? (y/n): y
+
+Generated Password: j8!Kz@5pQw2#LmXr
+
+
+# Tools Used:
 
 Python 3.x
 
@@ -27,5 +37,5 @@ string module (for character sets)
 random module (for randomization)
 
 
-Outcome:
+# Outcome:
 A functional tool that generates strong, unpredictable passwords to enhance security.
